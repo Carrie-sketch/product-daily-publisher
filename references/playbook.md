@@ -75,8 +75,6 @@ Zenn：
 - 服务器访问 GitHub 的 443 不通时，用仓库部署密钥走 SSH。不要改用一个不存在的 HTTP 接口
 - 从 Git 删除文件不会删除 Zenn 上的文章。已下架的文章不要再推回去
 
-Medium 不自动发。使用者从 dev.to 导入后，自行把链接填进 `Medium链接`。
-
 ## 写文章
 
 遵守 `references/writing-rules.md`。
