@@ -65,8 +65,6 @@
 
 Zenn 和 Qiita 默认关闭。使用者明确说要开，才把 `platforms.yaml` 里对应项改成 `enabled: true`。
 
-Medium 默认手动，不自动发。
-
 完成标准：`platforms.yaml` 里每个平台都是明确的开或关，没有含糊项。
 
 ## 第 6 步：收集密钥
@@ -135,7 +133,7 @@ python3 setup_table.py
 | devto链接_2 | 链接 | 副 dev.to |
 | CodeLegion链接 | 链接 | 主 CodeLegion |
 | CodeLegion链接_2 | 链接 | 副 CodeLegion |
-| Medium链接 | 链接 | 手动导入后由使用者填写 |
+| Medium链接 | 链接 | 已开启时回填 |
 | Zenn链接 | 链接 | 日语平台，未开启时留空 |
 | Qiita链接 | 链接 | 日语平台，未开启时留空 |
 
