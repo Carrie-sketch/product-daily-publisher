@@ -1,0 +1,40 @@
+# 不需要的平台把 enabled 改成 false。账号和仓库留空，由使用者自己填到 keys.env。
+timezone: "Asia/Shanghai"
+start: "10:00"
+retry_until: "21:30"
+keywords_per_day: 2
+gap_between_keywords_seconds: 60
+slots:
+  - id: devto
+    enabled: true
+    language: en
+    env_key: DEVTO_API_KEY
+  - id: devto_2
+    enabled: true
+    language: en
+    env_key: DEVTO_API_KEY_2
+    gap_before_seconds: 0
+  - id: codelegion
+    enabled: true
+    language: en
+    env_key: CODLEGION_API_KEY
+    canonical_from: devto
+  - id: codelegion_2
+    enabled: true
+    language: en
+    env_key: CODLEGION_API_KEY_2
+    canonical_from: devto_2
+    gap_before_seconds: 30
+  - id: zenn
+    enabled: false
+    language: ja
+    per_account_per_day: 1
+    via: github_repo
+  - id: qiita
+    enabled: false
+    language: ja
+    per_account_per_day: 1
+    env_key: QIITA_TOKEN
+  - id: medium
+    enabled: false
+    mode: manual
