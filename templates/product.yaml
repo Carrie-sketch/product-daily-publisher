@@ -1,0 +1,19 @@
+# 复制到 ~/.config/product-daily-publisher/product.yaml 后填写。不要写入密钥。
+product_name: ""
+one_line: ""
+official_docs: []
+allowed_facts: []
+forbidden: []
+forbidden_phrases: []
+disabled_tags: []
+tag_layers:
+  exposure: []
+  precise: []
+  competitive: []
+# 文末引流。至少填 1 条，否则不能发文。不要留空地址。
+footer_links:
+  - label: ""
+    url: ""
+language:
+  english_slots: en
+  japanese_slots: ja
