@@ -27,7 +27,7 @@
 - 不存在就创建，并把 `templates/` 里的文件复制进去。
 - 不要覆盖使用者已经填过的文件。
 
-完成标准：配置目录里有 `product.yaml`、`platforms.yaml`、`keywords.csv`、`keys.env.example`、`model.env.example`。
+完成标准：配置目录里有 `product.yaml`、`platforms.yaml`、`keywords.csv`、`keys.env`、`model.env`。后两个由 `bootstrap.py` 在使用者本机生成，分享包里没有这两个文件。
 
 ## 第 3 步：收集产品资料
 
