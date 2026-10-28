@@ -1,0 +1,5 @@
+# 安装到服务器的系统定时任务，不要只放在个人电脑。
+# 把 /opt/product-daily-publisher 换成服务器上的技能目录。
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+*/30 10-21 * * * root cd /opt/product-daily-publisher && /usr/bin/python3 run_daily.py >> state/cron.log 2>&1
