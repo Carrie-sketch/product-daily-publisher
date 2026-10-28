@@ -11,7 +11,7 @@ description: 通用产品长尾词每日发文。按 references/steps.md 从第 
 
 ## 拿到后必须这样执行
 
-先运行 `python3 bootstrap.py`，再运行 `python3 run_daily.py --check`。把缺项一次列给使用者，停下来等他们提供。不要猜测，不要用技能包里的空值发文。
+先读 `落地.md` 第 7 到第 9 节，再运行 `python3 bootstrap.py` 和 `python3 run_daily.py --check`。把缺项一次列给使用者，停下来等他们提供。不要猜测，不要用技能包里的空值发文。个人电脑配置通过，不等于服务器可以自动发文。
 
 必须向使用者要的信息：
 
